@@ -24,7 +24,6 @@ public class DemoConfiguration {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
-
                 .consumes(DEFAULT_PRODUCES_AND_CONSUMES)
                 .produces(DEFAULT_PRODUCES_AND_CONSUMES)
                 .select()
